@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Rent A Car App TestPhase</string>
+
+
+    <string-array name="usertype">
+        <item>Manager</item>
+        <item>Staff</item>
+        <item>Customer</item>
+    </string-array>
+    <string-array name="designation">
+        <item>Receptionist</item>
+        <item>Accountant</item>
+        <item>Peon</item>
+    </string-array>
+
+    <string-array name="CarStatus">
+        <item>Available</item>
+        <item>Rented</item>
+        <item>OutOfDuty</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ManagerPanel">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manager Panel"
+        android:ems="30"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/tvMgrPanel"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Staff /Employees"
+        android:ems="30"
+        android:layout_gravity="center"
+        android:id="@+id/tvMgrAddStaff"></TextView>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View All Staff"
+        android:id="@+id/tvViewAllUsers"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View All Customers"
+        android:id="@+id/tvViewAllCustomers"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Total Car List"
+        android:id="@+id/tvViewAllCars"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Available Car List"
+        android:id="@+id/tvViewAllAvailableCars1"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Rented Car List"
+        android:id="@+id/tvViewAllRentedCars"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View out of duty Car List"
+        android:id="@+id/tvViewAllOutofDutyCars"></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cange Password"
+        android:id="@+id/tvChangePwMgr"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LogOut"
+        android:id="@+id/tvLogout"></TextView>
+
+
+
+
+
+</LinearLayout>
